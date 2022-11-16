@@ -20,7 +20,7 @@ For example **another vertical edge detection** is
 
 **Sobel filter:**
 
-<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/sober.png" title="" alt="" width="193">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/sobel.png" title="" alt="" width="193">
 
 **Scharr filter:**
 
