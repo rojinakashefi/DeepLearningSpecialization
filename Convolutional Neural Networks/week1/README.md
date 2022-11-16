@@ -8,11 +8,11 @@ For **vertical edge detection** we use this matrix :
 
 2. Right side (Positive numbers )shows bright side , Left side (negative numbers) shows dark side.
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/vertical.png" title="" alt="" width="126">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/vertical.png" title="" alt="" width="126">
 
 For **horizontal edge detection** we use this matrix:
 
-<img title="" src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/horizontal.png" alt="" width="130">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/horizontal.png" alt="" width="130">
 
 We can use different kind of filter for edge detection but **the format** (one side is positive and next side is negative) must be kept.
 
@@ -20,11 +20,11 @@ For example **another vertical edge detection** is
 
 **Sobel filter:**
 
-<img src="file:///Users/rojina/Library/Application%20Support/marktext/images/2022-11-16-16-00-18-image.png" title="" alt="" width="193">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/sober.png" title="" alt="" width="193">
 
 **Scharr filter:**
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/scharr.png" title="" alt="" width="177">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/scharr.png" title="" alt="" width="177">
 
 you really want to detect edges in some complicated image, maybe <u>you don't </u>
 
@@ -64,7 +64,7 @@ After adding padding to input picture and apple the convolution operation the ou
 
 if we have padding and stride the output dimension is :
 
-![strided.png](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/strided.png)
+![strided.png](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/strided.png)
 
 ## Convolutions over volume
 
@@ -74,7 +74,7 @@ if we have padding and stride the output dimension is :
 
 - Convolving 3d input with n *(3d)* filter will result in nd output.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/multiple-filters.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/multiple-filters.png)
 
 - Input is our a[0].
 
@@ -82,7 +82,7 @@ if we have padding and stride the output dimension is :
 
 **Summary of notations**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/summary.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/summary.png)
 
 As we go deeper in convolution network the **x,y will shrink** as the **dimension will increase**.
 
@@ -112,7 +112,7 @@ Its like a filter which apply a function on a specific frame.
 
 <u>Usually its so rare to use padding for pooling layers.</u>
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/pooling.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/pooling.png)
 
 ### Convolution neural network
 
@@ -127,6 +127,6 @@ Its like a filter which apply a function on a specific frame.
 
 3. Number of parameters to train remain small
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/parameter-sharing.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/parameter-sharing.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/sparsity.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/sparsity.png)
