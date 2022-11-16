@@ -8,11 +8,11 @@ For **vertical edge detection** we use this matrix :
 
 2. Right side (Positive numbers )shows bright side , Left side (negative numbers) shows dark side.
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/vertical-edge.png" title="" alt="" width="168">
+<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/vertical.png" title="" alt="" width="126">
 
 For **horizontal edge detection** we use this matrix:
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/horizontal-edge.png)
+<img title="" src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/horizontal.png" alt="" width="130">
 
 We can use different kind of filter for edge detection but **the format** (one side is positive and next side is negative) must be kept.
 
@@ -20,11 +20,11 @@ For example **another vertical edge detection** is
 
 **Sobel filter:**
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/Sobel-filter.png" title="" alt="" width="236">
+<img src="file:///Users/rojina/Library/Application%20Support/marktext/images/2022-11-16-16-00-18-image.png" title="" alt="" width="193">
 
 **Scharr filter:**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/schar-%20filter.png)
+<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/scharr.png" title="" alt="" width="177">
 
 you really want to detect edges in some complicated image, maybe <u>you don't </u>
 
@@ -45,8 +45,6 @@ The two downside is :
 1. every time you apply a convolutional operator, your image shrinks.
 
 2. if you look the pixel at the corner or the edge, this little pixel is touched as used only in one of the outputs, because this touches that three by three region. Whereas, if you take a pixel in the middle, say this pixel, then there are a lot of three by three regions that overlap that pixel and so, is as if pixels on the corners or on the edges are use much less in the output. So you're **throwing away a lot of the information near the edge of the image**.
-   
-   <img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/padding-necessary.png" title="" alt="" width="157">
 
 Solution is to *Add padding*.
 
@@ -66,7 +64,7 @@ After adding padding to input picture and apple the convolution operation the ou
 
 if we have padding and stride the output dimension is :
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/strided-output.png)
+![strided.png](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/strided.png)
 
 ## Convolutions over volume
 
@@ -76,7 +74,7 @@ if we have padding and stride the output dimension is :
 
 - Convolving 3d input with n *(3d)* filter will result in nd output.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/Multiple-filters.png)
+![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/multiple-filters.png)
 
 - Input is our a[0].
 
@@ -84,7 +82,7 @@ if we have padding and stride the output dimension is :
 
 **Summary of notations**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/notation-summary.png)
+![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/summary.png)
 
 As we go deeper in convolution network the **x,y will shrink** as the **dimension will increase**.
 
@@ -114,7 +112,7 @@ Its like a filter which apply a function on a specific frame.
 
 <u>Usually its so rare to use padding for pooling layers.</u>
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/pooling-summary.png)
+![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/pooling.png)
 
 ### Convolution neural network
 
