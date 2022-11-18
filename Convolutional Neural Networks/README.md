@@ -4,4 +4,4 @@
 
 **Class:** Edge detection, sobel and scharr filter, pooling layer, padding and stride convolution, convolution neural network, max pooling and average pooling, parameter sharing, sparsity of connections.
 
-**Homeworks:**
+**Homeworks:** Building blocks of a convolutional neural network, Sign language detection using Convloution layers.
