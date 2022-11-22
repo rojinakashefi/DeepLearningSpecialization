@@ -8,7 +8,7 @@
 
 - At that time only sigmoid and tanh activation function was used (no ReLU)
   
-  ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/leNet-5.png)
+  ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/leNet-5.png)
 
 ## AlexNet
 
@@ -20,15 +20,15 @@
 
 - local response normalization. (for example if we have 13x13x256 we will take a point and normalize it in dimension)
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/normalization.png" title="" alt="" width="108">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/normalization.png" title="" alt="" width="108">
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/AlexNet.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/AlexNet.png)
 
 ## VGG - 16
 
 - As you go deeper and height and width goes down, it just goes down by a factor of two each time for the pulling layers whereas the number of channels increases.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/VGG%20-%2016.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/VGG%20-%2016.png)
 
 ## ResNets
 
@@ -38,25 +38,25 @@ Using skip connections which allows you to take the activation from one layer an
 
 - **Short cut** or **skip connection** must be implemented **after linear part** but **before relu part**.
 
-<img title="" src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/Residual-block.png" alt="" width="495" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/Residual-block.png" alt="" width="495" data-align="center">
 
 For deep network we make residual blocks and stack them together.
 
 ### Plain network vs Residual network
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/PvsR.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/PvsR.png)
 
 **Plain network :**
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/Plain.png" title="" alt="" width="168">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/Plain.png" title="" alt="" width="168">
 
 **Res Net:**
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/ResNet.png" title="" alt="" width="174">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/ResNet.png" title="" alt="" width="174">
 
 **Because we use L2 noramlization it will shrink down W values and if W shrinks to zero we will have a[L+2] = a[L] which means the layers between them have no affect on your neural network.**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/a[l]=a[l+2].png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/a[l]=a[l+2].png)
 
 1. we assume z[l+2] has same dimension as a[l] because of that we use lots of same convolutions.
 
@@ -66,7 +66,7 @@ For deep network we make residual blocks and stack them together.
 
 ### One-by-one convolution
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/one-one-conv.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/one-one-conv.png)
 
 - Element wise product between volumes and summing the result.
 
@@ -80,9 +80,9 @@ Instead of saying what filter size you want, what convolutional layer or pooling
 
 - Helps to reduce compuational cost 10 times lower without hurting the performance.
   
-  ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/using-1x1.png)
+  ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/using-1x1.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/inception-module.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/inception-module.png)
 
 **Inception network** Which is largely the inception module repeated a bunch of times 
 
@@ -100,21 +100,21 @@ Using MobileNets will allow you to build and deploy new networks that work even 
 
 **FOCUS ON DIMENSIONS AND NUMBER OF FILTERS**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/normal-convolution.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/normal-convolution.png)
 
 **In depthwise convolution each of nc filters will be applied in <u>one of the nc input</u>.**
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/depthwise-convolution.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/depthwise-convolution.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/point-wise%20conv.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/point-wise%20conv.png)
 
 ## MobileNet Architecture
 
 The clever idea, The cool thing about the <u>bottleneck block</u> is that it <u>enables a richer set of computations</u>, thus allow your neural network to learn richer and more complex functions, while also <u>keeping the amounts of memory</u> that is the size of the activations you need to pass from layer to layer, relatively small.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/mobile-net.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/mobile-net.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/bottleneck.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/bottleneck.png)
 
 **How can you automatically scale up or down neural networks for a particular device**?
 
