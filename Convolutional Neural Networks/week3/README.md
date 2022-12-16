@@ -6,15 +6,15 @@ We have classifcation, classification with localization, detection algorithm.
 
 For object localization next to our softmax output, we have a bounding box output (bx, by, bh, bw) .
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/new-y.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/new-y.png)
 
 if there is an object is picture pc = 1 and loss function will be :
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/ly=1.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/ly=1.png)
 
 if there is no object in picture pc = 0 and our main goal is to see how accurate is our algorithm in object detection (pc) and loss function will be : 
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/ly=0.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/ly=0.png)
 
 ## Landmark detection
 
@@ -64,7 +64,7 @@ non-max means that you're going to output your maximal probabilities classificat
 
 One of the problems with object detection as you have seen it so far is that each of the grid cells can detect only one object. What if a grid cell wants to detect multiple objects?
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/anchor-boxes.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/anchor-boxes.png)
 
 ## Semantic segmentation with U-Net
 
@@ -72,4 +72,4 @@ The goal is to draw a careful outline around the object that is detected so that
 
 Semantic segmentation is a very useful algorithm for many computer vision applications where the key idea is you have to take every single pixel and label every single pixel individually with the appropriate class label. As you've seen in this video, a key step to do that is to take a small set of activations and to blow it up to a bigger set of activations. In order to do that, you have to implement something called the transpose convolution, which is important operation that is used multiple times in the unit architecture.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Convolutional%20Neural%20Networks/pictures/transpose-convolution.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Convolutional%20Neural%20Networks/pictures/transpose-convolution.png)
