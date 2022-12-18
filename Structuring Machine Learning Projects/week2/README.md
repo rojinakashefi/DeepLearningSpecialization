@@ -46,7 +46,7 @@ so there are two options:
 
 2. Split the mobile app to two parts, add first part to train set and split again the second part to two parts, one for dev set and one for test set, now all of our data in dev and test sets are from mobile app pictures, which we know we are getting as input.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/spliting-two-datasets.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/spliting-two-datasets.png)
 
 ## Bias and Variance with Mismatched Data Distributions
 
@@ -64,9 +64,9 @@ We run or neural network on train set and for error analysis we use train-dev,de
 
 3. If we have a big gap between human-level and training set we have a avoidable bias problem.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/train-dev-set.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/train-dev-set.png)
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/gaps.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/gaps.png)
 
 ## Addressing Data mismatch
 
