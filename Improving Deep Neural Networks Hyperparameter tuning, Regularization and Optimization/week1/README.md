@@ -40,11 +40,11 @@ In high dimensional we cannot plot data so we use different classifiers to class
 
 2. Dev set error
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/Train:Dev%20error.png" alt="" width="520" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/Train:Dev%20error.png" alt="" width="520" data-align="center">
 
 High bias and High variance : 
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/High%20bias-variance.png" alt="" width="257" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/High%20bias-variance.png" alt="" width="257" data-align="center">
 
 ## Basic recipe for Machine Learning
 
@@ -62,7 +62,7 @@ In the pre-deep learning era, we didn't have as many tools that just reduce bias
 
 - L2 Regularization
   
-  <img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/L2.png" alt="" width="429" data-align="center">
+  <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/L2.png" alt="" width="429" data-align="center">
   
   Since w is a matrix and has more values, it might overfit more but B is only a real number.
 
@@ -72,7 +72,7 @@ In the pre-deep learning era, we didn't have as many tools that just reduce bias
   
   the set of parameters are zero, then you need less memory to store the model.
   
-  <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/L1.png" title="" alt="" data-align="center">
+  <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/L1.png" title="" alt="" data-align="center">
 
 - Regularization parameter 
   
@@ -80,15 +80,15 @@ In the pre-deep learning era, we didn't have as many tools that just reduce bias
 
 **Neural network**
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/neural%20network.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/neural%20network.png)
 
 - Forbenius norm of a matirx
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/formula.png" title="" alt="" data-align="center">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/formula.png" title="" alt="" data-align="center">
 
 - Weight decay
   
-  ![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/weight-decay.png)
+  ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/weight-decay.png)
 
 ## Why regularization reduces overfitting?
 
@@ -162,11 +162,11 @@ Many people use L2 regularization instead of early stopping, the only disadvanta
 
 Use same Mu and sigma we use for normalizing input on test set as well.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/normalizing-input.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/normalizing-input.png)
 
 If we normalize oue input, we may need to have smaller learning rate as well. and we go forward to minimum and makes cost function to minimze and optimize easier.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/unnormalized.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/unnormalized.png)
 
 ## Vanishing / Exploding Gradients
 
@@ -200,10 +200,10 @@ When you implement back propagation you'll find that there's a test called  crea
 
 2. Take dW[1], db[1], ..., dW[L], db[L] and reshape into a big vector dTheta.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/graident-checking.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/graident-checking.png)
 
 for checking d approximation and d theta:
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/check.png" alt="" width="455" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/check.png" alt="" width="455" data-align="center">
 
 
