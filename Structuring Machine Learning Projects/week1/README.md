@@ -124,7 +124,7 @@ Remeber we shouldn't try to make avoidable bias to 0% because the human error (b
 
 Having human-level error helps us to know to focus on avoidable bias techniques or variance error techniques.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/avoidable-bias.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Structuring%20Machine%20Learning%20Projects/pictures/avoidable-bias.png)
 
 ## Surpassing human-level performance
 
