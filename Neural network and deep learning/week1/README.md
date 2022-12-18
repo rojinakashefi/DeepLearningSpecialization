@@ -31,7 +31,7 @@ A function which goes to zero sometimes and then it'll take of as a straight lin
 
 2. Recurrent neural network : often used for one-dimensional sequence data that has maybe a temporal component.
    
-   ![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week1/pictures/nn-types.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week1/pictures/nn-types.png)
 
 **Structuted Data vs Unstructured Data**
 
@@ -49,7 +49,7 @@ It turns out that a lot of short term economic value that neural networks are cr
 
 
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week1/pictures/scale.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week1/pictures/scale.png)
 
 
 
