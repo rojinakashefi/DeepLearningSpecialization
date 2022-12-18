@@ -6,7 +6,7 @@ By now, you've seen forward propagation and back propagation in the context of a
 
 We have different kind of Neural Network:
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/different-nn.png" alt="" width="378">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/different-nn.png" alt="" width="378">
 
 1. **Shallow model** : Logistic Regression 
 
@@ -46,7 +46,7 @@ The general rule is :
 
 for l = 1 to L( number of layers ) :
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/general-fp-rule.png" title="" alt="" width="244">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/general-fp-rule.png" title="" alt="" width="244">
 
 **Deep Neural Network Representation**
 
@@ -74,7 +74,7 @@ for l = 1 to L( number of layers ) :
 
 **Forward and Backward propagation in Deep Neural network**
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/fp-bp-dnn.png" title="" alt="" width="275">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/fp-bp-dnn.png" title="" alt="" width="275">
 
 Forward and backward propagation one step:
 
@@ -82,18 +82,18 @@ Forward and backward propagation one step:
 
 One iteration of gradient descent :
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/gd-iteration.png" title="" alt="" width="435">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/gd-iteration.png" title="" alt="" width="435">
 
 backward propagation specific:
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/bp.png" title="" alt="" width="223">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/bp.png" title="" alt="" width="223">
 
 **Hyperparameters vs Parameters**
 
 The hyperparameters controll parameters values.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/parameters-vs-hyperparameters.png" title="" alt="" width="373">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/parameters-vs-hyperparameters.png" title="" alt="" width="373">
 
 **Deep learning is a very empirical process**
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week4/pictures/emp.png" title="" alt="" width="176">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week4/pictures/emp.png" title="" alt="" width="176">
