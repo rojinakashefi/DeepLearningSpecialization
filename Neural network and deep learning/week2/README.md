@@ -16,13 +16,13 @@ When implementing a neural network, you usually want to process your entire trai
   
   X.shape = (nx,,m)
   
-  <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/X-matrix.png" title="" alt="" width="188">
+  <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/X-matrix.png" title="" alt="" width="188">
 
 - We stack our output labels in Y columns. y's should be between zero ane one.
   
   Y.shape = (1, m)
   
-  <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/Y-matrix.png" title="" alt="" width="233">
+  <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/Y-matrix.png" title="" alt="" width="233">
 
 - Parameters = **w** (w.shape = (nx,1) )and **b** (we put b and w <u>seperate</u>)
 
@@ -30,13 +30,13 @@ When implementing a neural network, you usually want to process your entire trai
   
   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/sigmoid.png" title="" alt="" width="177">
   
-  <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/sigmoid-y.png" title="" alt="" width="182">
+  <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/sigmoid-y.png" title="" alt="" width="182">
 
 #### **Logistic Regression Cost Function**
 
 To train the parameters W and B we need to define a cost function.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/we-want.png" title="" alt="" width="307">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/we-want.png" title="" alt="" width="307">
 
 We want the output data we predict be the same as the input label.
 
@@ -46,15 +46,15 @@ We define loss or error function to see how well our model is doing :
 
 1. In logistic regression people don't usually do this.Because when you come to learn the parameters, you find that the optimization problem and becomes <u>non convex</u>. So you end up with optimization problem, you're with multiple local optimum.
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/alse-error-func.png" title="" alt="" width="210">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/alse-error-func.png" title="" alt="" width="210">
 
 2. So in logistic regression we actually define a different loss function that plays a similar role as squared error but will give us an optimization problem that is <u>convex</u>.
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/cost-func.png" title="" alt="" width="352">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/cost-func.png" title="" alt="" width="352">
    
    we want loss function be as **small** as possible.
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/small-as-possible.png" title="" alt="" width="391">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/small-as-possible.png" title="" alt="" width="391">
    
    The **loss function** was defined with respect to a **single training example**. 
    
@@ -62,7 +62,7 @@ We define loss or error function to see how well our model is doing :
 
 The cost function is **the average of the loss function of the entire training set**. it measures how well your parameters W and B are doing on your entire training set. We are going to find the parameters ?‘¤ ?‘Ž?‘›?‘‘ ?‘ that minimize the overall cost function.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/cost-function.png" title="" alt="" width="370">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/cost-function.png" title="" alt="" width="370">
 
 y hat is the prediction output by your logistic regression algorithm using, you know, a particular set of parameters W and B.
 
@@ -80,9 +80,9 @@ We know cost function measures how well your parameters W and B are doing on you
 
 Repeatedly do that until the algorithm converges.
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/gradient-descent.png" alt="" width="173">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/gradient-descent.png" alt="" width="173">
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/wandbupdate.png" title="" alt="" width="180">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/wandbupdate.png" title="" alt="" width="180">
 
 1. Alpha : Is the learning rate and controls how big a step we take on each iteration.
 
@@ -92,13 +92,13 @@ Repeatedly do that until the algorithm converges.
    
    (ignore b for now just to make this one dimensional plot instead of a higher dimensional plot.)
    
-   1. <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/working.png" title="" alt="" width="130">
+   1. <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/working.png" title="" alt="" width="130">
       
       Here the derivative is positive. W gets updated as w minus a learning rate times the derivative and so you end up subtracting from w.
       
       So you end up taking a step to the left and so gradient descent with, make your algorithm slowly decrease the parameter.
    
-   2. <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/negative.png" title="" alt="" width="119">
+   2. <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/negative.png" title="" alt="" width="119">
       
       This point the slope here will be negative.So this end up increasing parameter.
    
@@ -125,13 +125,13 @@ Computation graph comes in handy when there is some distinguished or some specia
 
 For **one training example** of logistic regression calculating derivativies be like:
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/lr-dervivative.png" alt="" width="348">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/lr-dervivative.png" alt="" width="348">
 
 For **m training example** of logistic regression calculating derivatives be like:
 
 **Average** **all derivatives of training se**t example for **each weight** 
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/each-weight.png" title="" alt="" width="330">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/each-weight.png" title="" alt="" width="330">
 
 <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/algorithm.png" title="" alt="" width="329">
 
@@ -141,7 +141,7 @@ In contrast dz(i) is for a single training example.
 
 **All of the above computation** is for **one step** gradient descent:
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/one-step-gd.png" title="" alt="" width="264">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/one-step-gd.png" title="" alt="" width="264">
 
 There are two weekness with the calculation we write:
 
@@ -153,7 +153,7 @@ Instead of writing for loops we use Vectorization.
 
 **One gradient descent step** without for loop:
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/vectorization.png" title="" alt="" width="185">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/vectorization.png" title="" alt="" width="185">
 
 For multiple iteration of gradient descent you put the code above in for loop in range of number of iterations.
 
@@ -161,10 +161,10 @@ For multiple iteration of gradient descent you put the code above in for loop in
 
 Images on your computer are stored as three separate matrices corresponding red, green and blue color channels of the image.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/color-images.png" title="" alt="" width="246">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/color-images.png" title="" alt="" width="246">
 
 If your input image is 64 pixels by 64 pixels, then you would have 3 64 by 64 matrices corresponding to the red, green and blue pixel intensity values for your images.
 
 To turn these pixel intensity values- Into a <u>feature vector</u>, we're going to do is <u>unroll</u> all of these pixel values into <u>an</u> input feature vector x. If the image is a 64 by 64 image, the <u>total dimension</u> of this vector x will be 64 by 64 by 3 because that's the <u>total numbers</u> we have in all of these matrixes.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week2/pictures/x-colors.png" title="" alt="" width="112">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week2/pictures/x-colors.png" title="" alt="" width="112">
