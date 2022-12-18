@@ -22,39 +22,39 @@ You can form a neural network by stacking together a lot of little sigmoid units
 
 - In each node we have two computation first to calculate z and then computing the activation using sigmoid of z:
   
-  <img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/node-compute.png" alt="" width="189" data-align="center">
+  <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/node-compute.png" alt="" width="189" data-align="center">
 
-- ![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/a-representation.png)
+- ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/a-representation.png)
 
 **Neural Network Representation**
 
 1. Using Foor loop:
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/for-loop.png" title="" alt="" width="330">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/for-loop.png" title="" alt="" width="330">
 
 2. Using Vectorization for a **Single training example**:
    
    <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/vectorization.png" title="" alt="" width="440">
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/a-vectorization.png" title="" alt="" width="177">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/a-vectorization.png" title="" alt="" width="177">
    
    **We call the w vector as W[1] and the b vector as B[1]**.
 
 3. Using Vecotrization for **Multiple training example**:
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/multiple-vectorization.png" title="" alt="" width="204">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/multiple-vectorization.png" title="" alt="" width="204">
    
    If we have m training exmple we can use foor loop to compute thier predicted value using: **(i refer to number of training example)**
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/for-multiple.png" title="" alt="" width="163">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/for-multiple.png" title="" alt="" width="163">
    
    We can compute multiple training example using the description below:
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/multiple-bigX.png" title="" alt="" width="160">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/multiple-bigX.png" title="" alt="" width="160">
    
    where Z and A are vecotres seen below:
    
-   <img title="" src="/z-a.png" alt="" width="218">
+   <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/z-a.png" alt="" width="218">
    These matrixes **horizontal** side correspond to **different training example**
    
    These matrixes **vertical** side corresponf to **differrent nodes** in the neural network.(hidden units number).
@@ -69,13 +69,13 @@ When you build your neural network, one of the choices you get to make is what a
    
    **If you have a binary classification use sigmoid function for activation function of output layer.**
    
-   <img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/sigmoid.png" alt="" width="188">
+   <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/sigmoid.png" alt="" width="188">
 
 2. Tanh Function
    
    Better than sigmoid function because of the centering of data around zero instead of 0.5 in sigmoid.
    
-   <img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/tan.png" alt="" width="187">
+   <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/tan.png" alt="" width="187">
 
 One of the downsides of both the sigmoid function and the tanh function is that if **z is either very large or very small**, then the gradient of the derivative of the slope of this function becomes very small and ends up being close to zero and so this can **slow down gradient descent**.
 
@@ -83,7 +83,7 @@ One of the downsides of both the sigmoid function and the tanh function is that 
    
    The **default choice** for activation function.
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/relu.png" title="" alt="" width="199">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/relu.png" title="" alt="" width="199">
    
    The derivative is one so long as z is positive and derivative or the slope is zero when z is negative.
 
@@ -91,7 +91,7 @@ One of the downsides of both the sigmoid function and the tanh function is that 
    
    Instead of it being zero when z is negative, it just takes a slight slope.
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/leaky-relu.png" title="" alt="" width="197">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/leaky-relu.png" title="" alt="" width="197">
 
 If you were to use linear activation functions or we can also call them identity activation functions, then the neural network is just outputting a linear function of the input. So unless you throw a non-linear item in there, then you're not computing more interesting functions even as you go deeper in the network.
 
@@ -103,29 +103,29 @@ There is just one place where you might use a linear activation function g(z) = 
 
 1. Sigmoid Function
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/sigmoid-derivatives.png" title="" alt="" width="166">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/sigmoid-derivatives.png" title="" alt="" width="166">
 
 2. Tanh Function
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/tanh-derivatives.png" title="" alt="" width="171">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/tanh-derivatives.png" title="" alt="" width="171">
 
 3. ReLu Function
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/relu-derivative.png" title="" alt="" width="175">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/relu-derivative.png" title="" alt="" width="175">
 
 4. Leaky ReLU Function
    
-   <img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/leaky-relu-derivative.png" title="" alt="" width="191">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/leaky-relu-derivative.png" title="" alt="" width="191">
 
 **Graident Descent for Neural Networks**
 
 **We don't get derivatives for X since input x is for supervised learning and we are not trying to optimize x.**
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/gradient-descent-neural-network.png" title="" alt="" width="394">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/gradient-descent-neural-network.png" title="" alt="" width="394">
 
 Using vectorization for multiple training example:
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/gd-mlt-te.png" title="" alt="" width="351">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/gd-mlt-te.png" title="" alt="" width="351">
 
 **Random Initialization**
 
@@ -135,12 +135,12 @@ It turns out initializing the bias terms b to 0 is actually okay, but initializi
 
 So you should use th terms below:
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/random.png" title="" alt="" width="286">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/random.png" title="" alt="" width="286">
 
 The problem of initialize to zero is that for any example you give it, you'll have that a1,1 and a1,2, will be equal and both of these hidden units are computing exactly the same function.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/equality.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/equality.png)
 
 Then computing back propagation their derivatives be aslo equal.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/neural%20network%20and%20deep%20learning/week3/pictures/derivatives-equality.png" title="" alt="" width="171">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Neural%20network%20and%20deep%20learning/week3/pictures/derivatives-equality.png" title="" alt="" width="171">
