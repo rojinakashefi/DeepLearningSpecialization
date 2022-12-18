@@ -18,9 +18,9 @@ Mini batch gradient descent = we split our training set to small batches.
 
 One epoch = pass through training set.
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/mini-batch-gradient-descent.png" alt="" width="546" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/mini-batch-gradient-descent.png" alt="" width="546" data-align="center">
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/batchvsmini.png" alt="" width="514" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/batchvsmini.png" alt="" width="514" data-align="center">
 
 - If mini-batch size = m ---> batch gradient descent ( **To long per iteration** )
 
@@ -34,7 +34,7 @@ Stochastic gradient descent can be extremely noisy. ( **we can reduce it by redu
 
 In practice, the mini-batch size you use will be somewhere in between.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/COMPARE.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/COMPARE.png)
 
 - If small training set : use batch gradient descent (m < 2000)
 
@@ -74,13 +74,13 @@ In gradient descent we might have some noises of horizontal lines (makes gradien
 
 So we want to be faster in horizontal and slower in vertical axis.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/momentum.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/momentum.png)
 
 ## RMSprop
 
 There's another algorithm called RMSprop, Which stands for **root mean square prop**, that can also speed up gradient descent.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/rmsprop.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/rmsprop.png)
 
 Since w are in horizontal axis, we hope sdw be small which deviding by a small number make us to move larger step in horizontal axis.
 
@@ -90,7 +90,7 @@ Since b is vertical axis, we hope sdp be big which deviding by a big value makes
 
 Adaptive moment estimation, Adam optimizer is combining RMSprop and momentum together:
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/adam.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/adam.png)
 
 ## Learning Rate Decay
 
@@ -98,13 +98,13 @@ One of the things that might help speed up your learning algorithm is to slowly 
 
 If you were to slowly reduce your learning rate Alpha, then during the initial phases, while your learning rate Alpha is still large, you can still have relatively fast learning. But then as Alpha gets smaller, your steps you take will be slower and smaller, and so, you end up oscillating in a tighter region around this minimum rather than wandering far away even as training goes on and on.
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/learning-rate-decay.png" title="" alt="" data-align="center">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/learning-rate-decay.png" title="" alt="" data-align="center">
 
 Try different alpha zero and decay rate.
 
 - Other learning rate decay methods
   
-  ![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/other-decay.png)
+  ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/other-decay.png)
 
 - If our model takes days to train, some people do manual decay. 
 
