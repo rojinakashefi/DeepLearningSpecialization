@@ -54,7 +54,7 @@ Babysit one model, that is watching performance and patiently nudging the learni
 
 2. **Training many models in parallel**
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/pandas-vs-caviar.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/pandas-vs-caviar.png)
 
 In depends on how many computational resources we have.
 
@@ -62,9 +62,9 @@ In depends on how many computational resources we have.
 
 What if we want to normalize not only input of neural network but also input of hidden layers and activation functions?
 
-<img src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/activate-normalization.png" title="" alt="" width="546">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/activate-normalization.png" title="" alt="" width="546">
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/if.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/if.png)
 
 Remeber by choosing other values of gamma and beta than above, this allows you to make the hidden unit values have other means and variances as well.
 
@@ -80,7 +80,7 @@ we have to optimize this hyperparameter we can use different optimization algori
 
 - Batch Norm is usually applied with mini-batches of your training set.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/batch-Norm.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/batch-Norm.png)
 
 ## Why does batch norm works
 
@@ -122,10 +122,10 @@ But *in practice*, what people usually do is implement and exponentially weighte
 
 Its a generalization of logistic regression called Softmax regression. The less you make predictions where you're trying to recognize one of C or one of multiple classes, rather than just recognize two classes.
 
-<img title="" src="https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/softmax.png" alt="" width="249" data-align="center">
+<img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/softmax.png" alt="" width="249" data-align="center">
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/lossfunc.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/lossfunc.png)
 
 we want to make loss function small so we have to make the y parameter as big as possible.
 
-![](https://github.com/rojinakashefi/Intro-to-Artificial-Intelligence/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/costfunct.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/pictures/costfunct.png)
