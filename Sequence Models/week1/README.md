@@ -8,15 +8,15 @@ We cant use standard network because :
 
 ## Recurrent neural networks
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/RNN.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/RNN.png)
 
 One of the downside of recurrent neural netowrk is in this particular neural network structure is that the prediction at a certain time uses inputs or uses information from the inputs earlier in the sequence but not information later in the sequence. (Solution: bidirection RNN).
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/ff-RNN.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/ff-RNN.png)
 
 Compress Waa and Wax into one Wa.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/sff-RNN.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/sff-RNN.png)
 
 And we use backpropagation in RNN as well.
 
@@ -28,11 +28,11 @@ In RNN the input and output text have same length but in real world we have diff
    
    input with T length, output with T length 
    
-   <img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/many-to-many.png" title="" alt="" width="237">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/many-to-many.png" title="" alt="" width="237">
    
    they can have different length as well but must be more than 1
    
-   <img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/many-to-many2.png" title="" alt="" width="249">
+   <img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/many-to-many2.png" title="" alt="" width="249">
 
 2. many to one
    
@@ -40,7 +40,7 @@ In RNN the input and output text have same length but in real world we have diff
    
    example: sentiment analysis
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/many-to-one.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/many-to-one.png)
 
 3. One to many
    
@@ -48,11 +48,11 @@ In RNN the input and output text have same length but in real world we have diff
    
    example : music generation
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/one-to-many.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/one-to-many.png)
 
 4. One to one
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/one-to-one.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/one-to-one.png)
 
 ## Language model and sequence generation
 
@@ -80,7 +80,7 @@ Training set : large corpus of english text.
 
 This method is used to generate a randomly sentece using our trained language model RNN.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/sampling-training.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/sampling-training.png)
 
 We can stop sampling by two methods:
 
@@ -106,7 +106,7 @@ Exploding gradients happens it can be catastrophic because the exponentially lar
 
 ## GRU
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/RNN-unit.png" title="" alt="" width="288">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/RNN-unit.png" title="" alt="" width="288">
 
 There is a memory cell and gamma (which says till when should we memorize the memory cell and update the value)
 
@@ -114,13 +114,13 @@ If gamma = 1 means update our memory cell and put the new value in it and memori
 
 If gamma = 0 means dont update our memory cell and use previous value.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/GRUU.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/GRUU.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/GRU-unitt.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/GRU-unitt.png)
 
 ## LSTM
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/LSTM.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/LSTM.png)
 
 With both LSTM and GRU we can capture more range of dependencies. People more choose LSTM although GRU is more simple and it might be easier to scale them with bigger problems.
 
@@ -128,8 +128,8 @@ With both LSTM and GRU we can capture more range of dependencies. People more ch
 
 Each of block can be RNN, LSTM or GRU block.
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/BRNN.png" title="" alt="" width="418">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/BRNN.png" title="" alt="" width="418">
 
 ## Deep RNNs
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/Deep-RNN.png" title="" alt="" width="439">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/Deep-RNN.png" title="" alt="" width="439">
