@@ -12,7 +12,7 @@ In machine translation the decoder module is similar to language model (used for
 
 Machine translation is similar to building a conditional language model. 
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/machine%20-trasnaltion.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/machine%20-trasnaltion.png)
 
 We want a model that maximes the output. 
 
@@ -26,7 +26,7 @@ But we are choosing best sentence only by probability of P(y|x) which isnt corre
 
 In greedy search we only considered one output for p( y | x), but in beam search we specify beam width and we consider B output for p(y|x). We need B copy of network.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/Beam-search.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/Beam-search.png)
 
 In each step we choose B phrase. If B=1 we reach to greedy search.
 
@@ -36,7 +36,7 @@ In each step we choose B phrase. If B=1 we reach to greedy search.
    
    these probabilities are all numbers less than one, in fact, often they're much less than one and multiplying a lot of numbers less than one result in a tiny number, which can result in numerical under-floor, meaning that is too small for the floating point of representation in your computer to store accurately.
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/length-normalization.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/length-normalization.png)
 
 2. How to choose B?
    
@@ -54,11 +54,11 @@ Using this process we can undrestand what fraction of errors are due to beam sea
 
 1. We read sentence part by part and we dont memorize whole sentence (Long sequence)
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/attention-intution.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/attention-intution.png)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/alpha.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/alpha.png)
 
-<img title="" src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/alpha2.png" alt="" width="385">
+<img title="" src="fhttps://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/alpha2.png" alt="" width="385">
 
 ## Speech Recognition
 
@@ -66,7 +66,7 @@ Because even the human ear doesn't process raw wave forms, but the human ear has
 
 **CTC cost for speech recognition**:
 
- <img title="" src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/CTC.png" alt="" width="464">
+ <img title="" src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/CTC.png" alt="" width="464">
 
 ## Trigger word detection
 
