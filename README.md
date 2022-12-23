@@ -1,4 +1,4 @@
-# Deep Learning Specialization on Coursera (offered by deeplearning.ai)
+# Deep Learning Specialization
 
 Programming assignments and quizzes from all courses in the Coursera [Deep Learning specialization](https://www.coursera.org/specializations/deep-learning) offered by `deeplearning.ai`.
 
@@ -6,63 +6,63 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 ## Notes
 
-#### Each course has a summary of course topics.
+### Each course has a summary of course topics.
 
-- Course 1: Neural Networks and Deep Learning 
+- [Course 1: Neural Networks and Deep Learning](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Neural%20network%20and%20deep%20learning) 
 
-- Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+- [Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization)
 
-- Course 3: Structuring Machine Learning Projects
+- [Course 3: Structuring Machine Learning Projects](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Structuring%20Machine%20Learning%20Projects)
 
-- Course 4: Convolutional Neural Networks
+- [Course 4: Convolutional Neural Networks](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks)
 
-- Course 5: Sequence Models
+- [Course 5: Sequence Models](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models)
 
-#### Each week has summary of weeks topics.
+### Each week has summary of weeks topics.
 
 - Course 1: Neural Networks and Deep Learning
   
-  1. Week1
+  1. [Week1](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Neural%20network%20and%20deep%20learning/week1)
   
-  2. Week2
+  2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Neural%20network%20and%20deep%20learning/week2)
   
-  3. Week3
+  3. [Week3](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Neural%20network%20and%20deep%20learning/week3)
   
-  4. Week4
+  4. [Week4](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Neural%20network%20and%20deep%20learning)
 
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
   
-  1. Week1
+  1. [Week1](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/week1)
   
-  2. Week2
+  2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/week2)
   
-  3. Week3
+  3. [Week3](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization/week3)
 
 - Course 3: Structuring Machine Learning Projects
   
-  1. Week1
+  1. [Week1](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Structuring%20Machine%20Learning%20Projects/week1)
   
-  2. Week2
+  2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Structuring%20Machine%20Learning%20Projects/week2)
 
 - Course 4: Convolutional Neural Networks
   
-  1. Week1
+  1. [Week1[(https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week1)
   
-  2. Week2
+  2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week2)
   
-  3. Week3
+  3. [Week3](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week3)
   
-  4. Week4
+  4. [Week4](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week4)
 
 - Course 5: Sequence Models
   
-  1. Week1
+  1. [Week1](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models/week1)
   
-  2. Week2
+  2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models/week2)
   
-  3. Week3
+  3. [Week3](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models/week3)
   
-  4. Week4
+  4. [Week4](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models/week4)
 
 ## Programming Assignments
 
