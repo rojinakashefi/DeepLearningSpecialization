@@ -48,7 +48,7 @@ To get word embeddings we multiple Embedding matrix to one-hot representation of
    
    c. can use softmax classification
    
-   ![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/softmax.png)
+   ![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/softmax.png)
    
    The problem is iterating through all vocab is slow.
    
@@ -78,13 +78,13 @@ We use smaller K for larger dataset and larger K for smaller dataset.
 
 For selecting negative examples:
 
-<img src="file:///Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/negative-sampling.png" title="" alt="" width="265">
+<img src="https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/negative-sampling.png" title="" alt="" width="265">
 
 ## GloVe
 
 It captures Xij which means number of time j appears in context of i. (words that occur together)
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/glove.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/glove.png)
 
 For frequent words like a, the try to make F smaller and for unique words we try to make weight F bigger.
 
@@ -92,7 +92,7 @@ For frequent words like a, the try to make F smaller and for unique words we try
 
 Is a task of looking at a piece of text and telling if someone likes or dislikes the thing.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/Sentiment-anlysis.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/Sentiment-anlysis.png)
 
 Averaging has some problems
 
@@ -102,7 +102,7 @@ Averaging has some problems
 
 The solution is to use RNN:
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/S-a-RNN.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/S-a-RNN.png)
 
 ## Debiasing Word Embeddings
 
@@ -114,4 +114,4 @@ The solution is to use RNN:
 
 3. Equalize pairs.
 
-![](/Users/rojina/Desktop/ai/AI-courses/DeepLearningSpecialization/Sequence%20Models/pictures/bias.png)
+![](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/pictures/bias.png)
