@@ -18,7 +18,7 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 - [Course 5: Sequence Models](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Sequence%20Models)
 
-### Each week has summary of weeks topics.
+### Each week has summary of week topics.
 
 - Course 1: Neural Networks and Deep Learning
   
@@ -106,6 +106,7 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 - [Week 2 - PA 2 - Emojify!](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/week2/Emoji_v3a.ipynb)  
 - [Week 3 - PA 1 - Neural Machine Translation with Attention](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/week3/Neural_machine_translation_with_attention_v4a.ipynb)
 - [Week 3 - PA 2 - Trigger Word Detection](https://github.com/rojinakashefi/DeepLearningSpecialization/blob/main/Sequence%20Models/week3/Trigger_word_detection_v2a.ipynb)
-- [Week 4 - PA 1 - Transformer Network](https://nbviewer.jupyter.org/github/amanchadha/coursera-deep-learning-specialization/blob/master/C5%20-%20Sequence%20Models/Week%204/Transformer%20Subclass/C5_W4_A1_Transformer_Subclass_v1.ipynb)  
-- [Week 3 - PA 2 - Transformer Network Application: Named-Entity Recognition](https://nbviewer.jupyter.org/github/amanchadha/coursera-deep-learning-specialization/blob/master/C5%20-%20Sequence%20Models/Week%203/Named%20Entity%20Recognition/Transformer_application_Named_Entity_Recognition.ipynb)   
-- [Week 3 - PA 2 - Transformer Network Application: Question Answering](https://nbviewer.jupyter.org/github/amanchadha/coursera-deep-learning-specialization/blob/master/C5%20-%20Sequence%20Models/Week%203/Question%20Answering/QA_transformer.ipynb) 
+- [Week 4 - PA 1 - Transformers Architecture with tensorflow]()
+- [Week 4 - PA 2 - Transformer Preprocessing]()
+- [Week 3 - PA 3 - Transformer Network Application: Named-Entity Recognition]()
+- [Week 3 - PA 4- Transformer Network Application: Question Answering]()
