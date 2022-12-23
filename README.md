@@ -46,7 +46,7 @@ Instructor: [Andrew Ng](http://www.andrewng.org/)
 
 - Course 4: Convolutional Neural Networks
   
-  1. [Week1[(https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week1)
+  1. [Week1](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week1)
   
   2. [Week2](https://github.com/rojinakashefi/DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/week2)
   
